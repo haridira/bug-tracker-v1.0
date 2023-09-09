@@ -1,12 +1,12 @@
-import React from 'react';
-// import Card from './components/Card';
-import './App.css';
+import React from "react";
+import Card from "./components/Card";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-    <h1>Hello Hari!</h1>
-  
+      <h1>Hello Hari!</h1>
+      <Card />
     </div>
   );
 }

@@ -1,11 +1,11 @@
-import React from "React";
+import React from "react";
 
 function Card() {
-    return (
+  return (
     <div>
-        <h1>Hello World</h1>
+      <h1>I'm the Issue Card</h1>
     </div>
-    );
+  );
 }
 
 export default Card;
