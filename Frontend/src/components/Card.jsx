@@ -1,9 +1,11 @@
 import React from "react";
 
-function Card() {
+function Card(props) {
   return (
     <div>
-      <h1>I'm the Issue Card</h1>
+      <h2></h2>
+      <h2>{props.name}</h2>
+      <h4>{props.comment}</h4>
     </div>
   );
 }
